@@ -2,6 +2,8 @@
 
 A Discord bot that helps manage screen time for children. The bot tracks when a child starts watching content and reminds them when their time is up.
 
+
+
 ## Features
 
 - Start screen time tracking by typing "i have started watching"
@@ -9,6 +11,17 @@ A Discord bot that helps manage screen time for children. The bot tracks when a 
 - Automatic warnings when time is up
 - Three-level warning system
 - Parent notification system
+
+## Known Limitations and Issues
+
+⚠️ **Important Note**: This is a beta version with some limitations:
+- The bot currently doesn't persist data between restarts (all active timers will be reset)
+- Parent notifications are not fully implemented yet
+- The bot doesn't track daily screen time limits
+- No user authentication system is in place
+- The bot might not handle multiple users in the same channel optimally
+
+These features are planned for future updates.
 
 ## Setup
 
