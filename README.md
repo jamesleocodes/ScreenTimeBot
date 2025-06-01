@@ -23,6 +23,27 @@ A Discord bot that helps manage screen time for children. The bot tracks when a 
 
 These features are planned for future updates.
 
+## Important Notes
+
+1. **Bot Token Security**:
+   - Never share your bot token with anyone
+   - Don't commit the `.env` file to version control
+   - If your token is compromised, reset it immediately in the Discord Developer Portal
+
+2. **Server Requirements**:
+   - The bot needs to be in a server where it has permission to read and send messages
+   - Make sure the bot has the necessary permissions when inviting it to your server
+
+3. **Running the Bot**:
+   - The bot needs to be running continuously to track screen time
+   - If the bot goes offline, all active timers will be reset
+   - Consider using a hosting service for 24/7 operation
+
+4. **Parental Control**:
+   - This bot is a tool to help manage screen time, not a complete solution
+   - Regular monitoring and communication with your child is still important
+   - The bot's warnings should be used as a guide, not a replacement for parental supervision
+
 ## Setup
 
 1. Install Python 3.8 or higher
