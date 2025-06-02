@@ -62,11 +62,54 @@ These features are planned for future updates.
 
 ## How to Use
 
-1. Your child can start a screen time session by typing "i have started watching"
-2. The bot will confirm and start the timer
-3. When time is up, the bot will send a message
-4. If your child doesn't respond, the bot will send three warnings
-5. Your child can end the session early by typing `!stop`
+### For Parents:
+1. **Initial Setup**:
+   - Create a dedicated channel for the bot in your Discord server
+   - Make sure only your child and the bot have access to this channel
+   - Explain to your child how the bot works and its purpose
+
+2. **Monitoring**:
+   - Check the channel regularly to see if your child is following the screen time rules
+   - Look for warning messages that indicate your child might be exceeding their time
+   - Use the bot's warnings as conversation starters about responsible screen time use
+
+### For Children:
+1. **Starting Screen Time**:
+   - When you want to start watching something, go to the bot's channel
+   - Type exactly: "i have started watching"
+   - The bot will respond with a confirmation message
+   - Your screen time session has begun!
+
+2. **During Screen Time**:
+   - The bot will automatically track your time
+   - You can continue watching until the time is up
+   - If you finish early, you can stop the timer
+
+3. **When Time is Up**:
+   - The bot will send you a message saying "Time's up!"
+   - You should respond by typing `!stop`
+   - If you don't stop, the bot will send three warnings
+   - After three warnings, it will notify your parent
+
+4. **Stopping Early**:
+   - If you want to stop before time is up, type `!stop`
+   - The bot will confirm that your session has ended
+   - This is good practice and shows responsible screen time management!
+
+### Example Conversation:
+```
+Child: i have started watching
+Bot: Ok sunshine! Since you've started watching, I will start the timer. I'll let you know when time's up!
+
+[30 minutes later]
+Bot: @Child Time's up! Have you stopped?
+
+[If no response]
+Bot: @Child Warning 1/3: Please stop watching! If you don't respond, I'll have to tell your dad to enable screen time restrictions!
+
+Child: !stop
+Bot: Great job stopping on time! Your screen time session has ended.
+```
 
 ## Getting a Discord Bot Token
 
